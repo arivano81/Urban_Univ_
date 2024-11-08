@@ -1,0 +1,7 @@
+text = input("Введите произвольный текст: ")
+print("Длина текста: ", len(text))
+print("Текст в верхнем регистре: ", text.upper())
+print("Текст в нижнем регистре: ", text.lower())
+print("Текст без пробелов: ", text.replace(" ", ""))
+print(text[0])
+print(text[-1])
