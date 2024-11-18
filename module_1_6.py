@@ -8,6 +8,8 @@ print('Modified dictionary: ', my_dict)
 # множества
 my_set = {5, 'Kamal Singh', 5, 21.29, 'Kamal Singh'}
 print('Set: ', my_set)
-my_set = {5, 'Kamal Singh', 5, 21.29, 'Kamal Singh', 8, (1, 2)}
+my_set.add(8)
+my_set.add((1,2))
+#   print('Modified set: ', my_set)
 my_set.discard(8)
 print('Modified set: ', my_set)
