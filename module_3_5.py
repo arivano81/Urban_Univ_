@@ -1,6 +1,5 @@
 def get_multiplied_digits (number):
     number = str(int(number))
-    print(number)
     if len(number) == 1 and number[0] != '0':
         return int(number)
     elif len(number) == 1 and number[0] == '0':
