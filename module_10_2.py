@@ -14,7 +14,8 @@ def personal_sum(numbers):
 def calculate_average(numbers):
     try:
         try:
-            average = personal_sum(numbers)[0] / len(numbers)
+            sum1, len1 = personal_sum(numbers)
+            average = sum1 / (len(numbers) - len1)
             return average
         except TypeError:
             return None
